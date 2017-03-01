@@ -1,0 +1,29 @@
+#development:
+#  adapter: sqlite3
+#  database: db/development.sqlite3
+#  pool: 5
+#  timeout: 5000
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: d1smalgn7uojn9
+  host: ec2-54-243-214-198.compute-1.amazonaws.com
+  pool: 5
+  username: nnoikhzayrzgbq
+  password: 15b92bf545d55febe7ac80c7caba958194bc93d2c6222b31cb0c02972dc8557e
+
+#test:
+#  adapter: sqlite3
+#  database: db/test.sqlite3
+#  pool: 5
+#  timeout: 5000
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: d1smalgn7uojn9
+  host: ec2-54-243-214-198.compute-1.amazonaws.com
+  pool: 5
+  username: nnoikhzayrzgbq
+  password: 15b92bf545d55febe7ac80c7caba958194bc93d2c6222b31cb0c02972dc8557e
